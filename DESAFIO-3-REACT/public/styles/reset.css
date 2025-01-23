@@ -1,0 +1,72 @@
+/* TODO: Remover após criar a versão para desktop */
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #root {
+    width: 100%;
+    max-width: 375px;
+    height: fit-content;
+  }
+  
+  /* SUBTITUIÇÕES */
+  /* Redefinição dos estilos padrão */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Facilitando o trabalho com imagens */
+  img,
+  picture,
+  video {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Removendo os padrões de botões ´padrão */
+  button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+  
+  /* Entrada de fontes e botões no header */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  /* Tabelas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Formulários */
+  input,
+  textarea {
+    border: none;
+    outline: none;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
