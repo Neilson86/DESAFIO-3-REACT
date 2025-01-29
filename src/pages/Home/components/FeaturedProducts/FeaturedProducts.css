@@ -1,0 +1,27 @@
+.featured-products {
+    text-align: center;
+  }
+  
+  .product {
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-item {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .product-item p {
+    margin: 5px 0;
+  }
+  

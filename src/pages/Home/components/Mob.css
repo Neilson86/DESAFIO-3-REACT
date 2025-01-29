@@ -1,0 +1,13 @@
+.Mob {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #FFFFFF;/* 01  Home */
+
+    position: relative;
+    width: 375px;
+    height: 850px;
+    overflow-y: scroll;
+    
+    /* Colors / White */ 
+  }
+  
